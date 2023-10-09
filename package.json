@@ -1,0 +1,33 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headless",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "prettier": "prettier 'cypress/**/*.ts' --write"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cypress": "^13.2.0",
+    "typescript": "^4.8.4",
+    "cypress-iframe": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.13.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-no-only-tests": "^3.0.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "lint-staged": "^14.0.1",
+    "npm-check-updates": "^16.10.12",
+    "prettier": "^2.8.8"
+  }
+}
